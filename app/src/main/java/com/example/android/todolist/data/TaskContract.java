@@ -32,6 +32,7 @@ public class TaskContract {
         3) Path(s) to the tasks directory
         4) Content URI for data in the TaskEntry class
       */
+    //COMPLETE
 
     public static final String CONTENT_AUTHORITY = "com.example.android.todolist";
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
